@@ -1,0 +1,100 @@
+.container{
+    
+  padding: 20px;
+  margin:  auto;
+  width:90%;
+  
+  
+}
+.head{
+  text-align:center;
+  
+  font-size: 24px;
+}
+.content{
+  display: flex;
+  align-items: flex-start;
+  gap:20px;
+}
+.task-form{
+  background-color: rgb(68, 99, 134);
+  border-radius: 20px;
+  padding:20px;
+  margin: 20px auto;
+  width:300px;
+  height:auto; 
+  box-shadow: 5px 5px 10px 0px rgb(0,0,0,0.5) ;  
+  align-items: flex-start;
+  
+}
+.task-form h2{
+  color:white;
+  font-size: 28px;
+  text-align: center;
+
+}
+
+.task-form input, .task-form textarea{
+  width: 90%;
+  padding:8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px ;
+}
+textarea{
+  height:40px;
+  resize:none;
+  
+}
+.date-container {
+  display: flex;
+  gap: 10px; 
+}
+
+.date-container input {
+  flex: 1; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.update-button {
+  background: rgb(198, 25, 25);
+  border:none;
+  padding:12px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  color: white;
+  
+}
+.update-button:hover{
+  background: darkred;
+}
+
+
+.task-table th{
+  
+  background-color: rgb(21, 46, 74);;
+  padding:8px;
+  text-align: left;
+  color:white;
+  
+
+}
+.task-table{
+  
+  
+  width:100%;
+
+  border-collapse: collapse;
+  
+}
+.task-table-wrapper{
+  padding-top: 20px;
+  padding-left: 40px;
+  width: 800px;
+}
